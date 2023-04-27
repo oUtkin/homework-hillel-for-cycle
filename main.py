@@ -27,11 +27,11 @@ for k in range(1, N + 1):
     # sum of ' ' and * is equal to number of rows,
     # number of ' ' is equal to k minus 1
     # and number of * is equal to number of rows minus k
-    print(' ' * (k - 1), '*' * (N + 1 - k), sep='')
+    print(' ' * (k - 1) + '*' * (N + 1 - k), sep='')
 
 print('4)')
 for l in range(1, N + 1):
     # sum of ' ' and * is equal to number of rows,
     # number of ' ' is equal to number of rows minus l
     # and number of * is equal to value of l
-    print(' ' * (N - l), '*' * l, sep='')
+    print(' ' * (N - l) + '*' * l, sep='')
