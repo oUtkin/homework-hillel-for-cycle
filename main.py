@@ -9,7 +9,6 @@ except ValueError:
     print('Please, use only whole numbers')
     exit()
 
-
 # 1) and 2) are simple cycles tha include only *
 print('1)')
 for i in range(1, N + 1):
